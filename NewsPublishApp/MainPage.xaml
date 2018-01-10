@@ -1,0 +1,15 @@
+﻿<Page x:Class="NewsPublishApp.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NewsPublishApp"
+      mc:Ignorable="d"
+      Title="Page" Height="297.19" Width="351.288">
+
+    <Grid>
+        <Button x:Name="creatNewsButton" Content="Создать" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="75" Background="#FF3B80B2" OpacityMask="#FF1B1B1B" MinWidth="75" MinHeight="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0" FontFamily="Rockwell" FontSize="14" FontWeight="Bold" BorderThickness="0" Click="creatNewsButtonClick" >
+        </Button>
+
+    </Grid>
+</Page>
